@@ -1,9 +1,11 @@
-package com.google.gson;
-import com.google.gson;
+
+
+import com.google.gson.Gson; 
+import com.google.gson.GsonBuilder;  
 
 public class A4Gson { 
    public static void main(String[] args) { 
-      String jsonString = "{\"name\":\"Jared\", \"age\":21}"; 
+      String jsonString = "{\"name\":\"Mahesh\", \"age\":21}"; 
       
       GsonBuilder builder = new GsonBuilder(); 
       builder.setPrettyPrinting(); 
